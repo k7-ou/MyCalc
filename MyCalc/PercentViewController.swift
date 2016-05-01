@@ -15,6 +15,7 @@ class PercentViewController: UIViewController {
     //割引パーセンテージ入力フィールド
     @IBOutlet weak var percentField: UITextField!
     
+    //価格と割引％を渡す
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let viewController = segue.destinationViewController as! ResultViewController
         
